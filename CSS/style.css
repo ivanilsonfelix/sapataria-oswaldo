@@ -1,0 +1,48 @@
+
+body{
+    background-color: #a88977;
+}
+h1.page-title {
+    /*SHORTHANDS*/
+    color: blue;
+    margin: -1px auto 5px;
+    padding-left: 10px;
+    width: 80%;
+    font-size: 30pt;
+    font-weight: bold;
+    color: #5a331d;
+
+    
+   
+   
+}
+header{
+    background-color: #745849;
+}
+h2{
+    margin: 5px auto 25px; /*mesma coisa margin-top: 5px;*/
+    padding-left: 10px;
+    width: 80%;
+    font-size: 15pt;
+    color: #5a331d;
+
+    
+}
+main{
+    margin: 40px auto 5px;
+    width: 80%;
+    font-size: 15pt;
+    padding-left: 10px;
+    color: #0c0500;
+}
+.article-title{
+    
+    color: blue;
+    margin: 40px auto 5px;
+    padding-left: 0px;
+    width: 100%;
+    font-size: 20pt;
+    font-weight: bold;
+    color: #694936;
+
+}
