@@ -1,6 +1,9 @@
 
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body{
-    background-color: #a88977;
+    background-color: #e7c4b0;
+    
 }
 h1.page-title {
     /*SHORTHANDS*/
@@ -9,31 +12,67 @@ h1.page-title {
     padding-left: 10px;
     width: 80%;
     font-size: 30pt;
-    font-weight: bold;
-    color: #351807;
+    font-weight: 600;
+    color: #723918;
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
 
     
    
    
 }
 header{
-    background-color: #745849;
+    background-color: #cf9f85;
 }
+
+nav ul{
+    float: right;
+    margin-right: 80px;
+    list-style: none;
+    position: relative;
+    display: flex;
+    text-indent: 90px;
+    padding: 15px;
+    margin-top: 20px;
+    
+        
+}
+li a{
+    text-decoration: none;
+    color: #50270a;
+}
+a:hover{
+    transition: .5s;
+    background-color: #723918;
+    color: #e7c4b0;
+    padding: 20px;
+}
+
+
+   
+
+
 h2{
     margin: 5px auto 25px; /*mesma coisa margin-top: 5px;*/
     padding-left: 10px;
     width: 80%;
     font-size: 15pt;
-    color:#0c0500;
+    color:#50270a;
 
     
 }
+p{
+    margin: 30px auto 5px;
+
+}
+
+
 main{
     margin: 40px auto 5px;
     width: 80%;
     font-size: 15pt;
     padding-left: 10px;
-    color: #0c0500;
+    color:#50270a;
 }
 .article-title{
     
@@ -43,6 +82,50 @@ main{
     width: 100%;
     font-size: 20pt;
     font-weight: bold;
-    color: #351807;
+    color: #723918;
 
+}
+.titulo-produto{
+    margin: 40px 0 5px;
+    font-size: 21pt;
+    font-weight: 600;
+    font-style: italic;
+    color:  #cf9f85;
+    background-color:#50270a;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.3);
+    font-family: 'Rubik', sans-serif;
+    
+}
+.imagens-produto{
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 90px;
+    padding-left: 80px;
+    padding-top: 30px;
+    text-align: center;
+
+}
+
+footer{
+    background-color:  #cf9f85;
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    color: #723918;
+     
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+    
 }
