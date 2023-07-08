@@ -26,17 +26,21 @@ header{
 }
 
 nav ul{
-    float: right;
+    justify-content: right;
     margin-right: 80px;
-    list-style: none;
-    position: relative;
     display: flex;
     text-indent: 90px;
-    padding: 15px;
-    margin-top: 20px;
+    padding-top: 25px;
     
+    
+    
+    
+    
+
+     
         
 }
+
 li a{
     text-decoration: none;
     color: #50270a;
@@ -67,6 +71,7 @@ p{
 }
 
 
+
 main{
     margin: 40px auto 5px;
     width: 80%;
@@ -85,6 +90,14 @@ main{
     color: #723918;
 
 }
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}    
+
 .titulo-produto{
     margin: 40px 0 5px;
     font-size: 21pt;
@@ -108,6 +121,7 @@ main{
     padding-left: 80px;
     padding-top: 30px;
     text-align: center;
+    
 
 }
 
@@ -120,12 +134,13 @@ footer{
     padding-top: 30px;
     padding-bottom: 5px;
     color: #723918;
-     
-.container{
+    flex-direction: column;
+    justify-content: center;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+
+        
 }
+
+
+
     
-}
